@@ -1,0 +1,10 @@
+def count_occur(l,t):
+    c=0
+    for i in range(len(l)):
+        if l[i]==t:
+            c+=1
+    print("number of occurrence of",t,"is:",c)
+    return c
+j=eval(input("enter a list:"))
+u=input("enter the of which occurence have to count:")
+r=count_occur(j,u)
